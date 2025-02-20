@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - pytest-runner
+    - setuptools
     - python {{ python_min }}
   run:
     - numpy
@@ -28,17 +29,22 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - choix
+  commands:
+    - pip check
 
 about:
   home: https://pypi.org/project/choix/
   summary: Inference algorithms for models based on Luce's choice axiom.
   license: MIT
   license_file: LICENSE
+  dev_url: https://github.com/lucasmaystre/choix
 
 extra:
   recipe-maintainers:
     - mxr-conda
     - rluria14
     - oblute
+    - synapticarbors
