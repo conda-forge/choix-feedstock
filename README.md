@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: Inference algorithms for models based on Luce's choice axiom.
 
+Development: https://github.com/lucasmaystre/choix
+
 Current build status
 ====================
 
@@ -146,4 +148,5 @@ Feedstock Maintainers
 * [@mxr-conda](https://github.com/mxr-conda/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
